@@ -10,7 +10,7 @@ jobs:
       - name: Checkout consumer-sirh
         uses: actions/checkout@v2
       - name: Check yaml files
-        uses: opt-nc/yamlfixer-action@v1.0.0
+        uses: opt-nc/yamlfixer-action@v1.0.1
         with:
           yaml_file: .github/workflows
           options: --verbose

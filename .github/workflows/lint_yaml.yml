@@ -15,4 +15,4 @@ jobs:
           yaml_file: ./build_hello.yml
           options: --verbose
           user: mbarre
-          token: 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
+          token: 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

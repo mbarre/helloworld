@@ -10,7 +10,7 @@ jobs:
       - name: Checkout consumer-sirh
         uses: actions/checkout@v2
       - name: Check yaml files
-        uses: opt-nc/yamlfixer-action@v1.0.1
+        uses: opt-nc/yamlfixer-action@fix/auth
         with:
           yaml_file: ./build_hello.yml
           options: --verbose

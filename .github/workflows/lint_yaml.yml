@@ -15,4 +15,4 @@ jobs:
           yaml_file: ./build_hello.yml
           options: --verbose
           user: ${{github.actor}}
-          token: ${{secrets.WORKFLOW_TOKEN}}
+          token: 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

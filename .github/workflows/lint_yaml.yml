@@ -14,5 +14,5 @@ jobs:
         with:
           yaml_file: ./build_hello.yml
           options: --verbose
-          user: ${{github.actor}}
-          token: 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
+          user: mbarre
+          token: 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

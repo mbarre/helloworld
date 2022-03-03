@@ -12,7 +12,7 @@ jobs:
       - name: Check yaml files
         uses: opt-nc/yamlfixer-action@v1.0.1
         with:
-          yaml_file: .github/workflows/*.yml
+          yaml_file: ./build_hello.yml
           options: --verbose
           user: ${{github.actor}}
           token: ${{secrets.WORKFLOW_TOKEN}}

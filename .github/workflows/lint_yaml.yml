@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checkout consumer-sirh
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.WORKFLOW_TOKEN }}
       - name: Check yaml files
         uses: opt-nc/yamlfixer-action@fix/auth
         with:
